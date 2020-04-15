@@ -6,7 +6,9 @@ Note, that I'm by no means an expert in recording and production of videos. Most
 variants to everything described below.
 
 The resulting lectures (both live streams and prerecorded) can be found on my 
-YouTube channel: http://www.youtube.com/c/christiandrumm. The videos also show the improvement of the my setup over time
+YouTube channel: http://www.youtube.com/c/christiandrumm. 
+
+The videos also show the improvement of the my setup over time
 as well as some of the glitches that still exists (e.g. background noise).
 
 ## Requirements
@@ -14,11 +16,11 @@ as well as some of the glitches that still exists (e.g. background noise).
 The following list contains my requirements that where the basis for selecting the tools below. In order to be able
 to reuse at least parts of my existing lecture content, I need the ability to 
 
-1. record and stream the screen of my iPad
-1. use GoodNotes and the Apple Pencil for presenting my slides
-1. switch between slides and different software tools (e.g. process modelling software, SAP GUI or an IDE)
-1. switch between different screens (e.g. video only, video and slides, slides only)
-1. draw and point on the screen (e.g. to highlight features of a software)
+1. Record and stream the screen of my iPad
+1. Use GoodNotes and the Apple Pencil for presenting my slides
+1. Switch between slides and different software tools (e.g. process modelling software, SAP GUI or an IDE)
+1. Switch between different screens (e.g. video only, video and slides, slides only)
+1. Draw and point on the screen (e.g. to highlight features of a software)
 
 ## Software
 
