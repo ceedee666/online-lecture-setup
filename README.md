@@ -37,6 +37,14 @@ Some of these software is also abailable for Windows and/or Linux. However, I on
 * GoodNotes - https://www.goodnotes.com/
 * OBS Camera - https://obs.camera/
 
+### Web
+
+* YouTube - https://www.youtube.com
+   * Live streaming of videos
+   * Publication of videops
+* Github - https://www.github.com 
+   * Lecture transcripts as markdown file (cf. https://github.com/ceedee666/transcript_information_systems_ss20/)
+
 ## Hardware
 
 * MacBook Pro connected to an external monitor 
