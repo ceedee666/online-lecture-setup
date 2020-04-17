@@ -50,6 +50,6 @@ Some of these software is also abailable for Windows and/or Linux. However, I on
 * MacBook Pro connected to an external monitor 
 * iPad Pro and Apple Pencil 
 * Greenscreen (I bought this kit on Amazon: https://www.amazon.de/-/en/gp/product/B01MTB3T7Y)
-* A good microphone to improve the quality of the audio stream is missing. 
+* Trust GXT258 USB microphone (https://www.trust.com/en/product/23465-gxt-258-fyru-usb-4-in-1-streaming-microphone) 
 
 ## Setup
