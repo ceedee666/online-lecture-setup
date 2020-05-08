@@ -31,6 +31,7 @@ Some of these software is also available for Windows and/or Linux. However, I on
 * [OBS](https://obsproject.com/)
 * [AirServer](https://www.airserver.com/)
 * [ScreenBrush](https://imagestudiopro.com/screenbrush/)
+* [CamTwist](http://camtwiststudio.com/)
 
 ### iOS & iPadOS Software
 
@@ -108,3 +109,15 @@ of GoodNote to annotate the slides during the live stream.
 With all the other application running in full screen mode switching from the slide to an application is very easy.
 Using a swipe with three fingers on the touch pad of the MacBook changes to the application running in full screen mode.
 Switching back to the slides is also only a three finger swipe gesture on the touch pad.
+
+#### CamTwist & Zoom
+
+I also wanted the possiblilty to use my OBS sceens in a Zoom meeting. This is possible using the CamTwist software.
+CanTwist creates a virtual web cam that can be used as an input source in Zoom. The latest version of Zoom (5.x)
+doesn't recognise virtual wab cams anymore. In order to use a virtual web cam the following commands 
+need to be executedin a terminal
+
+```bash
+xcode-select --install
+sudo codesign --remove-signature /Applications/zoom.us.app/
+```
