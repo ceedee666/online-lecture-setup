@@ -112,7 +112,7 @@ Switching back to the slides is also only a three finger swipe gesture on the to
 
 #### CamTwist & Zoom
 
-I also wanted the possiblilty to use my OBS sceens in a Zoom meeting. This is possible using the CamTwist software.
+I also wanted the possibility to use my OBS sceens in a Zoom meeting. This is possible using the CamTwist software.
 CanTwist creates a virtual web cam that can be used as an input source in Zoom. The latest version of Zoom (5.x)
 doesn't recognise virtual wab cams anymore. In order to use a virtual web cam the following commands 
 need to be executedin a terminal
