@@ -1,7 +1,7 @@
 # My Setup for Online Lectures
 
-With this document I want to provide a short reference of the setup I use to record a live stream lectures.
-Over the last few weeks i tried quite a collection of tools and have now a setup that works very well for me.
+With this document I want to provide a short reference of the setup I use to record and live stream lectures.
+Over the last semester I tried quite a collection of tools and have now a setup that works very well for me.
 Note, that I'm by no means an expert in recording and production of videos. Most certainly there are better
 variants to everything described below.
 
@@ -32,6 +32,7 @@ Some of these software is also available for Windows and/or Linux. However, I on
 * [AirServer](https://www.airserver.com/)
 * [ScreenBrush](https://imagestudiopro.com/screenbrush/)
 * [CamTwist](http://camtwiststudio.com/)
+* [Camtasis](https://www.techsmith.com/video-editor.html)
 
 ### iOS & iPadOS Software
 
@@ -39,10 +40,10 @@ Some of these software is also available for Windows and/or Linux. However, I on
 * [OBS Camera](https://obs.camera/)
 
 ### Web
-
+* [Miro](https://www.miro.com)
 * [YouTube](https://www.youtube.com)
   * Live streaming of videos
-  * Publication of videos
+  * Publication of pre-recorded videos
 * [Github](https://www.github.com)
   * [Lecture transcripts](https://github.com/ceedee666/transcript_information_systems_ss20/) as markdown files
 
@@ -52,11 +53,11 @@ Some of these software is also available for Windows and/or Linux. However, I on
 * iPad Pro and Apple Pencil
 * Green screen (I bought this kit on [Amazon](https://www.amazon.de/-/en/gp/product/B01MTB3T7Y))
 * [Trust GXT258](https://www.trust.com/en/product/23465-gxt-258-fyru-usb-4-in-1-streaming-microphone) USB microphone
-* Tripod with iPhone mount
+* [Logitech StreamCam](https://www.logitech.com/en-us/product/streamcam)
 
 ## Setup
 
-### Prerequisites
+### Prerequisites for live streaming
 
 In order to live stream lectures on YouTube it is necessary to create a channel. The creation of a new
 channel is described [here](https://support.google.com/youtube/answer/1646861). Besides this, the channel also
@@ -66,15 +67,14 @@ needs to be verified. The verification of a channel is described [here](https://
 
 The central component of my setup is the MacBook. Using different USB-4 adapters the MacBook is connected to the
 
-* External monitor
+* External monitor (DELL UltraSharp U3415W Monitor)
 * USB microphone
-* iPhone mounted on the tripod
-* and (very important) to the power adapter!
+* Logitech StreamCam mounted on top of my monitor
 
 In my current setup the microphone and the tripod are placed in front of the external monitor. The MacBook is located to
 my left. Directly in front of me on the desk is my iPad.
 
-### Software Setup
+### Software Setup for Live Streaming
 
 #### OBS
 
@@ -95,7 +95,7 @@ reduction on the sound input. Both filters use the default parameters.
 
 I configured AirServer to use the external monitor as the output display. 
 
-#### MacOS X Space
+#### MacOS X Spaces
 
 I heavily use the MacOS X Spaces feature. For this to work properly on an external monitor it is important to tick the
 check box "Displays have separate Spaces" in the Mission Control preferences.
@@ -121,3 +121,16 @@ need to be executedin a terminal
 xcode-select --install
 sudo codesign --remove-signature /Applications/zoom.us.app/
 ```
+
+### Software Setup for Recording 
+
+#### Camtasia
+I created a template project to simplify the creation of a new recording. The template contains the intro and outro of the video 
+as well as some standard screen elements. 
+
+For the screen recording I use a standard 1920×1080px area. As a preparation for the recording I resize all the tools I need to show to 
+fit into this recording area. In combination with the large external monitor, this enables me to use the remaining screen area to show e.g. my 
+script for the recording. 
+
+#### Miro 
+I use Miro for all the parts where I want to build some visualisation on the screen. I usually prepare the visualisation before. During the recording I use the Miro app on my iPad to move parts of the visualisation into the Miro board area that I record. This enables me to not use my un-decipherable hand writing 😉
