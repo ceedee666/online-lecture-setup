@@ -77,7 +77,8 @@ All these components are positioned using the Elgato Multi Mount. The MacBook is
 my right. Directly in front of me on the desk is my iPad.
 
 The following images shows an overview of the whole setup.
-![Hardware Setup](https://github.com/ceedee666/online-lecture-setup/blob/master/IMG_8007.png)
+
+![Hardware Setup](https://github.com/ceedee666/online-lecture-setup/blob/master/IMG_8007.png?s=400)
 
 ### Software Setup for Live Streaming
 
