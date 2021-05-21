@@ -26,12 +26,11 @@ to reuse at least parts of my existing lecture content, I need the ability to
 
 ### Max OSX
 
-Some of these software is also available for Windows and/or Linux. However, I only tested the software on OS X (Catalina release). 
+Some of these software is also available for Windows and/or Linux. However, I only tested the software on OS X (Big Sur release). 
 
 * [OBS](https://obsproject.com/)
 * [AirServer](https://www.airserver.com/)
 * [ScreenBrush](https://imagestudiopro.com/screenbrush/)
-* [CamTwist](http://camtwiststudio.com/)
 * [Camtasis](https://www.techsmith.com/video-editor.html)
 
 ### iOS & iPadOS Software
@@ -51,9 +50,11 @@ Some of these software is also available for Windows and/or Linux. However, I on
 
 * MacBook Pro connected to an external monitor
 * iPad Pro and Apple Pencil
-* Green screen (I bought this kit on [Amazon](https://www.amazon.de/-/en/gp/product/B01MTB3T7Y))
 * [Trust GXT258](https://www.trust.com/en/product/23465-gxt-258-fyru-usb-4-in-1-streaming-microphone) USB microphone
 * [Logitech StreamCam](https://www.logitech.com/en-us/product/streamcam)
+* Two [Elgaot Key Light Air](https://www.elgato.com/en/key-light-air)
+* [Elgaot Green Screen](https://www.elgato.com/en/green-screen)
+* [Elgato Mulit Mount](https://www.elgato.com/en/master-mount) and some extensions
 
 ## Setup
 
@@ -68,11 +69,15 @@ needs to be verified. The verification of a channel is described [here](https://
 The central component of my setup is the MacBook. Using different USB-4 adapters the MacBook is connected to the
 
 * External monitor (DELL UltraSharp U3415W Monitor)
-* USB microphone
+* USB microphone (Trust GXT258)
 * Logitech StreamCam mounted on top of my monitor
 
-In my current setup the microphone and the tripod are placed in front of the external monitor. The MacBook is located to
-my left. Directly in front of me on the desk is my iPad.
+In my current setup the microphone in front of the external monitor, a little to the left. The camera is placed on top of the monitor directly in front of me. 
+All these components are positioned using the Elgato Multi Mount. The MacBook is located to
+my right. Directly in front of me on the desk is my iPad.
+
+The following images shows an overview of the whole setup.
+![Hardware Setup](https://github.com/ceedee666/online-lecture-setup/blob/master/IMG_8007.png)
 
 ### Software Setup for Live Streaming
 
@@ -110,17 +115,19 @@ With all the other application running in full screen mode switching from the sl
 Using a swipe with three fingers on the touch pad of the MacBook changes to the application running in full screen mode.
 Switching back to the slides is also only a three finger swipe gesture on the touch pad.
 
-#### CamTwist & Zoom
+#### OBS & Zoom
 
-I also wanted the possibility to use my OBS sceens in a Zoom meeting. This is possible using the CamTwist software.
-CanTwist creates a virtual web cam that can be used as an input source in Zoom. The latest version of Zoom (5.x)
-doesn't recognise virtual wab cams anymore. In order to use a virtual web cam the following commands 
-need to be executedin a terminal
+I the latest version OBS can act as a virtual web cam. Therefore, the output of OBS can be directly used as an input for Zoom. 
+No additional software like e.g. CamTwist is required. 
+The following might still be necessary to activate the usage of virtual web cams in Zoom. I haven't tried this for quite some time. 
 
-```bash
-xcode-select --install
-sudo codesign --remove-signature /Applications/zoom.us.app/
-```
+> In order to use a virtual web cam the following commands 
+> need to be executed in a terminal
+> 
+> ```bash
+> xcode-select --install
+> sudo codesign --remove-signature /Applications/zoom.us.app/
+> ```
 
 ### Software Setup for Recording 
 
@@ -133,4 +140,19 @@ fit into this recording area. In combination with the large external monitor, th
 script for the recording. 
 
 #### Miro 
-I use Miro for all the parts where I want to build some visualisation on the screen. I usually prepare the visualisation before. During the recording I use the Miro app on my iPad to move parts of the visualisation into the Miro board area that I record. This enables me to not use my un-decipherable hand writing 😉
+I use Miro for all the parts where I want to build some visualisation on the screen. I usually prepare the visualisation before. 
+During the recording I use the Miro app on my iPad to move parts of the visualisation into the Miro board area that I record. 
+This enables me to not use my un-decipherable hand writing 😉
+
+# Software for Teaching
+
+In the past month I experimented heavily with different software tools during live lectures. For me the following tools work very well:
+
+* [Zoom](zoom.us/) breakout rooms to enable group discussions and collaboration. 
+* [Miro](https://miro.com/app/) as a collaborative white board.
+* [Padlet](https://padlet.com/) as a collaboration tool when the extensive features of Miro ar not required.
+* [Tweetback](https://tweedback.de/) for live chat and discussions. Near zero setup. Very useful to allow questions in large lectures. 
+* [Quizizz](https://quizizz.com/) for live quizzes and homework. 
+
+The semester schedule of my [lecture on information systems](https://drumm.sh/is) gives a nice overview how all these tools work together to
+create engaging online lectures.
