@@ -24,9 +24,9 @@ to reuse at least parts of my existing lecture content, I need the ability to
 
 ## Software
 
-### Max OSX
+### Mac OS
 
-Some of these software is also available for Windows and/or Linux. However, I only tested the software on OS X (Big Sur release). 
+Some of these software is also available for Windows and/or Linux. However, I only tested the software on Mac OS (Big Sur release). 
 
 * [OBS](https://obsproject.com/)
 * [AirServer](https://www.airserver.com/)
