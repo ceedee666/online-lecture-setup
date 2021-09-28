@@ -52,8 +52,8 @@ Some of these software is also available for Windows and/or Linux. However, I on
 * iPad Pro and Apple Pencil
 * [Trust GXT258](https://www.trust.com/en/product/23465-gxt-258-fyru-usb-4-in-1-streaming-microphone) USB microphone
 * [Logitech StreamCam](https://www.logitech.com/en-us/product/streamcam)
-* Two [Elgaot Key Light Air](https://www.elgato.com/en/key-light-air)
-* [Elgaot Green Screen](https://www.elgato.com/en/green-screen)
+* Two [Elgato Key Light Air](https://www.elgato.com/en/key-light-air)
+* [Elgato Green Screen](https://www.elgato.com/en/green-screen)
 * [Elgato Mulit Mount](https://www.elgato.com/en/master-mount) and some extensions
 
 ## Setup
