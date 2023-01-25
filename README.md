@@ -112,7 +112,7 @@ In my current setup the microphone in front of the external monitor, a little to
 All these components are positioned using the Elgato Multi Mount. The MacBook is located to
 my right. Directly in front of me on the desk is my iPad.
 
-The following images shows an overview of the whole setup.
+The following images shows an overview of the whole setup (old setup, needs to be updated).
 
 ![Hardware Setup](https://github.com/ceedee666/online-lecture-setup/blob/master/IMG_8007.png?s=400)
 
